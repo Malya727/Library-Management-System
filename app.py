@@ -11,6 +11,7 @@ def main_function():
         #calls library function
         lb.main_function()
     elif choice == 2:
+        #calls student function
         st.main_function()
     else:
         print("Invalid Choice!")
