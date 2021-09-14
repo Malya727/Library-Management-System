@@ -8,6 +8,7 @@ def main_function():
     print(table)
     choice = int(input("Enter Your Choice :"))
     if choice == 1:
+        #calls library function
         lb.main_function()
     elif choice == 2:
         st.main_function()
@@ -17,3 +18,4 @@ def main_function():
 
 if __name__ == "__main__":
     main_function()
+
